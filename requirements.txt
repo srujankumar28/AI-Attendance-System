@@ -3,13 +3,19 @@ uvicorn[standard]
 python-jose[cryptography]
 python-multipart
 python-dotenv
+
 supabase
 bcrypt
+
 numpy
 pandas
-scikit-learn
+
+
 pillow
 segno
+
+# face recognisation models dependencies
+scikit-learn
 librosa
 dlib-bin
 face_recognition_models @ git+https://github.com/ageitgey/face_recognition_models
