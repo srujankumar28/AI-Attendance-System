@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+python-multipart
+python-dotenv
+supabase
+bcrypt
+numpy
+pandas
+scikit-learn
+pillow
+segno
+librosa
+dlib-bin
+face_recognition_models @ git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
